@@ -28,8 +28,8 @@
 
 .home-7 .home-7-top .home-7-l{
     width: 50%;
-    height: auto;
-    background-color: #15363000;
+    height: 100%;
+    background-color: #36211500;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,4 +124,74 @@
     text-align: center;
     color: #E2E8F1;
     font-weight: 200;
+}
+
+/* ------------------------------------------------------------ Tablet------------------------------------------------------------ */
+
+@media screen and (max-width: 1023px){
+    .home-7{
+        height: 400px;
+    }
+
+    .home-7 .home-7-top{
+        height: 356px;
+        flex-direction: column;
+    }
+
+    .home-7 .home-7-top .home-7-l{
+        height: 178px;
+        width: 100%;
+    }
+
+    .home-7 .home-7-top .home-7-r{
+        height: 178px;
+        width: 100%;
+    }
+}
+
+/* ------------------------------------------------------------ Movil ------------------------------------------------------------ */
+
+@media screen and (max-width: 767px){
+    
+    .home-7 .home-7-top .home-7-l{
+        height: 145px;
+        width: 100%;
+    }
+
+    .home-7 .home-7-top .home-7-r{
+        height: 211px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -25px;
+    }
+
+    .home-7 .home-7-top .home-7-r .telefonos{
+        width: 100%;
+        height: 125px;
+        display: flex;
+        align-items: end;
+        justify-content: left;
+    }
+
+    .home-7 .home-7-top .home-7-r .telefonos .a{
+        width: auto;
+        height: auto;
+    }
+
+    .home-7 .home-7-top .home-7-r .email{ 
+        height: 86px;
+        width: 100%;
+    }
+
+    .home-7 .home-7-top .home-7-r .email .b{
+        width: auto;
+        height: auto;
+    }
+
+    .home-7 .home-7-bottom p{
+        font-size: 12px;
+    }
+
+
 }

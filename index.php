@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./header/styleh.css?v=2.9">
     <link rel="stylesheet" href="./formulario/style-formulario.css?v=1.3">
-    <link rel="stylesheet" href="./footer/style-footer.css?v=1.0">
-    <link rel="stylesheet" href="style.css?v=3.4">
+    <link rel="stylesheet" href="./footer/style-footer.css?v=1.3">
+    <link rel="stylesheet" href="style.css?v=3.6">
     <title>Document</title>
 </head>
 <body>
@@ -163,7 +163,7 @@
             <iframe width="490" height="300" src="https://www.youtube.com/embed/9GEuWVNgMP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="home-5-video-mobil">
-            <iframe width="890" height="500" src="https://www.youtube.com/embed/9GEuWVNgMP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="355" height="200" src="https://www.youtube.com/embed/9GEuWVNgMP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
 
