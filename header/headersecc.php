@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleh.css?v=2.8">
+    <link rel="stylesheet" href="styleh.css?v=2.9">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -15,17 +15,17 @@
     <div class="header">
         <div class="headersub">
             <div class="logo">
-                <a href="index.php">
-                    <img src="./img//logos/FTSIN.png" alt="Logo de la marca">
+                <a href="../index.php">
+                    <img src="../img//logos/FTSIN.png" alt="Logo de la marca">
                 </a>
             </div>
 
             <div class="menu">
                 <nav>
-                <li><a href="./marketing-digital/marketing.php">MARKETING DIGITAL</a></li> |
-                    <li><a href="./diseno-web/diseno-web.php">DISEÑO WEB</a></li> |
-                    <li><a href="./diseno-logotipo/diseno-logotipo.php">DISEÑO LOGOTIPO</a></li> |
-                    <li style="padding: 0px 0px 0px 15px;"><a href="./contacto/contacto.php">CONTÁCTANOS</a></li>
+                    <li><a href="../marketing-digital/marketing.php">MARKETING DIGITAL</a></li> |
+                    <li><a href="../diseno-web/diseno-web.php">DISEÑO WEB</a></li> |
+                    <li><a href="../diseno-logotipo/diseno-logotipo.php">DISEÑO LOGOTIPO</a></li> |
+                    <li style="padding: 0px 0px 0px 15px;"><a href="../contacto/contacto.php">CONTÁCTANOS</a></li>
                 </nav>
             </div>
         </div>
@@ -37,8 +37,8 @@
     <div class="header-tm">
         <div class="headersub-tm">
             <div class="logo-tm">
-                <a href="index.php">
-                    <img src="./img//logos/FTSIN.png" alt="Logo de la marca">
+                <a href="../index.php">
+                    <img src="../img//logos/FTSIN.png" alt="Logo de la marca">
                 </a>
             </div>
             <div class="menu-tm">
@@ -53,10 +53,10 @@
 
     <div class="menu-full ">
         <nav>
-            <li><a href="./marketing-digital/marketing.php">MARKETING DIGITAL</a></li> 
-            <li><a href="./diseno-web/diseno-web.php">DISEÑO WEB</a></li> 
-            <li><a href="./diseno-logotipo/diseno-logotipo.php">DISEÑO LOGOTIPO</a></li>
-            <li><a href="./contacto/contacto.php">CONTÁCTANOS</a></li>
+            <li><a href="../marketing-digital/marketing.php">MARKETING DIGITAL</a></li> 
+            <li><a href="../diseno-web/diseno-web.php">DISEÑO WEB</a></li> 
+            <li><a href="../diseno-logotipo/diseno-logotipo.php">DISEÑO LOGOTIPO</a></li>
+            <li><a href="../contacto/contacto.php">CONTÁCTANOS</a></li>
         </nav>
 
     </div>

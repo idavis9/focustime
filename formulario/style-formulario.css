@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.formulario-6{
+    width: 100%;
+    height: 660px;
+    background-color: #152036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-6 .home-6-1{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.formulario-6 .home-6-1 .blur{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.formulario-6 .home-6-1 .home-6-left{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/fondos/formulariofd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-6 .home-6-1 .home-6-left .home-6-text{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(216, 112, 147, 0);
+}
+
+.formulario-6 .home-6-1 .home-6-left .home-6-text .home-6-text-1{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario-6 .home-6-1 .home-6-left .home-6-text .home-6-text-1 .text-6-1{
+    font-size: 27px;
+    font-weight: 500;
+    color: #E2E8F1;
+    margin: 0;
+    line-height: 30px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.formulario-6 .home-6-1 .home-6-left .home-6-text .home-6-text-1 .text-6-2{
+    font-size: 44px;
+    font-weight: 600;
+    color: #FFCD1A;
+    margin-bottom: 18px;
+    line-height: 47px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.formulario-6 .home-6-1 .home-6-left .home-6-text .home-6-text-1 .text-6-3{
+    font-size: 20px;
+    font-weight: 200;
+    color: #E2E8F1;
+    margin: 0;
+    line-height: 22px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.318);
+}
+
+.formulario-6 .home-6-1 .home-6-right{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(128, 0, 124, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-titulo{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(43, 131, 35, 0);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-titulo h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #152036;
+    margin: 0;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-formulario{
+    width: 90%;
+    height: 75%;
+    background-color: rgba(12, 81, 78, 0);
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .top{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(165, 42, 42, 0);
+    display: flex;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .top .l{
+    width: 50%;
+    height: 100%;
+    background-color: #201f1f00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .top .l .form-control{
+    font-size: 18px;
+    width: 95%;
+    height: 42px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-style: none;
+    background-color: #E1E1E1;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .top .r{
+    width: 50%;
+    height: 100%;
+    background-color: #11c38500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .top .r .form-control{
+    font-size: 18px;
+    width: 95%;
+    height: 42px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-style: none;
+    background-color: #E1E1E1;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .bottom{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(255, 25, 220, 0);
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .bottom .form-control{
+    font-size: 18px;
+    width: 100%;
+    height: 85%;
+    border-radius: 20px;
+    border: none;
+    border-style: none;
+    background-color: #E1E1E1;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-boton{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(138, 212, 35, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-boton .botonc3{
+    width: 170px;
+    height: 45px;
+    background-color: #152036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #E2E8F1;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-boton .botonc3 p{
+    margin: 0;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-boton .botonc3:hover{
+    background-color: #FFCD1A;
+    color: #152036;
+}
+
+.formulario-6 .home-6-1 .home-6-right .home-6-text-boton a{
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------ Tablet------------------------------------------------------------ */
+
+@media screen and (max-width: 1023px){
+
+    .formulario-6{
+        height: 700px;
+        background-color: #641e1e00;
+    }
+
+    .formulario-6 .home-6-1{
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/fondos/formulariofd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+    }
+
+    .formulario-6 .home-6-1 .blur{
+        background-color: #1520362a;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+
+    .formulario-6 .home-6-1 .home-6-left{
+        display: none;
+    }
+
+    .formulario-6 .home-6-1 .home-6-right{
+        width: 100%;
+        height: 100%;
+        background-color: #ffcd1a00;
+    }
+
+    .formulario-6 .home-6-1 .home-6-right .home-6-text-titulo{
+        align-items: end;
+    }
+
+    .formulario-6 .home-6-1 .home-6-right .home-6-text-titulo h3{
+        color: #E2E8F1;
+        font-size: 35px;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    .formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .top .r .form-control{
+        font-size: 15px;
+        border-radius: 14px;
+    }
+
+    .formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .top .l .form-control{
+        font-size: 15px;
+        border-radius: 14px;
+    }
+
+    .formulario-6 .home-6-1 .home-6-right .home-6-text-formulario .bottom .form-control{
+        font-size: 15px;
+    }
+
+}

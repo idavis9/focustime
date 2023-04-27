@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.home-7{
+    width: 100%;
+    height: 224px;
+    background-color: #1f262d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-7 .home-7-top{
+    width: 80%;
+    height: 180px;
+    background-color: rgba(14, 120, 120, 0);
+    display: flex;
+}
+
+.home-7 .home-7-top .home-7-l{
+    width: 50%;
+    height: auto;
+    background-color: #15363000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-7 .home-7-top .home-7-l img{
+    width: auto;
+    height: 70px;
+}
+
+.home-7 .home-7-top .home-7-l .redes{
+    width: 117px;
+    height: 25px;
+    background-color: #2dff1a00;
+    display: flex;
+    margin-top: 10px;
+}
+
+.home-7 .home-7-top .home-7-l .redes img{
+    width: 25px;    
+    height: 25px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.home-7 .home-7-top .home-7-r{
+    width: 50%;
+    height: auto;
+    background-color: #36151500;
+    display: flex;
+}
+
+.home-7 .home-7-top .home-7-r .telefonos{
+    width: 50%;
+    height: auto;
+    background-color: rgba(238, 130, 238, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-7 .home-7-top .home-7-r .telefonos .a{
+    width: 190px;
+    height: 60%;
+    background-color:rgba(255, 99, 71, 0);
+}
+
+.home-7 .home-7-top .home-7-r .telefonos .a p{
+    margin: 0;
+    font-weight: 300;
+    color: #E2E8F1;
+}
+
+.home-7 .home-7-top .home-7-r .telefonos .a p img{
+    width: 12px;
+    height: 12px;
+    margin-top: -3px;
+}
+
+.home-7 .home-7-top .home-7-r .email{
+    width: 50%;
+    height: auto;
+    background-color: rgba(137, 238, 130, 0);
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.home-7 .home-7-top .home-7-r .email .b{
+    width: 190px;
+    height: 60%;
+    background-color:rgba(71, 181, 255, 0);
+}
+
+.home-7 .home-7-top .home-7-r .email .b p{
+    margin: 0;
+    font-weight: 300;
+    color: #E2E8F1;
+}
+
+.home-7 .home-7-top .home-7-r .email .b p img{
+    width: 12px;
+    height: 12px;
+    margin-top: -3px;
+}
+
+.home-7 .home-7-bottom{
+    width: 100%;
+    height: 44px;
+    background-color: rgba(255, 0, 144, 0);
+    text-align: center;
+    color: #E2E8F1;
+    font-weight: 200;
+}

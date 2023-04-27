@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+/*------------------------------------------------------- home -------------------------------------------------*/
+
+.home{
+    width: 100%;
+    height: 740px;
+    background-image: url(../img/fondos/fondopri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.home .home-header{
+    width: 100%;
+    height: 95px;
+    background-color: #15363000;
+}
+
+.home .home-conten{
+    width: 100%;
+    height: 645px;
+    background-color: #36151500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .home-conten .text1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.2rem;
+    color: #E2E8F1;
+    margin: 0;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.179);
+    margin-top: -35px;
+}
+
+.home .home-conten .botonc{
+    width: 200px;
+    height: 50px;
+    background-color: #152036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #E2E8F1;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+
+.home .home-conten .botonc p{
+    margin: 0;
+}
+
+.home .home-conten .botonc:hover{
+    background-color: #FFCD1A;
+    color: #152036;
+}
+
+.home .home-conten a{
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+/*------------------------------------------------------- home 1 -------------------------------------------------*/
+
+.home-1{
+    width: 100%;
+    height: 750px;
+    background-color: rgba(203, 59, 59, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-1 .home-1-titulo{
+    width: 100%;
+    height: 120px;
+    background-color: #FFCD1A;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 26px;
+    color: #152036;
+}
+
+.home-1 .home-1-titulo h2{
+    margin: 0;
+    font-weight: 600;
+}
+
+.home-1 .home-1-paquetes{
+    width: 85%;
+    height: 630px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+/*---------- Tarjeta 1 ----------*/
+
+.home-1 .home-1-paquetes .home-1-paquetes-1{
+    width: 32%;
+    height: 630px;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-1 .card{
+    width: 19rem;
+    height: 400px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-1 .card .card-header{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: #152036;
+    color: #E2E8F1;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-1 .card .card-header p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-1 .card img{
+    width: 12px;
+    height: 12px;
+    margin-top: -3px;
+
+}
+
+/*----- Boton Inicio------*/
+
+.home-1 .home-1-paquetes .home-1-paquetes-1 .card .cont-boton{
+    width: 100%;
+    height: 60px;
+    background-color: #ffcd1a00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-1 .card .cont-boton .botonc{
+    width: 150px;
+    height: 40px;
+    background-color: #152036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #E2E8F1;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-1 .card .cont-boton .botonc p{
+    margin: 0;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-1 .card .cont-boton .botonc:hover{
+    background-color: #FFCD1A;
+    color: #152036;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-1 .card .cont-boton a{
+    text-decoration: none;
+}
+
+/*----- Boton Fin------*/
+
+/*---------- Tarjeta 2 ----------*/
+
+.home-1 .home-1-paquetes .home-1-paquetes-2{
+    width: 32%;
+    height: 630px;
+    background-color: rgb(31, 137, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-2 .card{
+    width: 19rem;
+    height: 400px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-2 .card .card-header{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: #152036;
+    color: #E2E8F1;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-3 .card .card-header p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-2 .card .card-header p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-2 .card img{
+    width: 12px;
+    height: 12px;
+    margin-top: -3px;
+
+}
+
+/*----- Boton Inicio------*/
+
+.home-1 .home-1-paquetes .home-1-paquetes-2 .card .cont-boton{
+    width: 100%;
+    height: 60px;
+    background-color: #ffcd1a00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-2 .card .cont-boton .botonc{
+    width: 150px;
+    height: 40px;
+    background-color: #152036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #E2E8F1;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-2 .card .cont-boton .botonc p{
+    margin: 0;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-2 .card .cont-boton .botonc:hover{
+    background-color: #FFCD1A;
+    color: #152036;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-2 .card .cont-boton a{
+    text-decoration: none;
+}
+
+/*----- Boton Fin------*/
+
+/*---------- Tarjeta 3 ----------*/
+
+.home-1 .home-1-paquetes .home-1-paquetes-3{
+    width: 32%;
+    height: 630px;
+    background-color: rgb(52, 54, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-3 .card{
+    width: 19rem;
+    height: 400px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-3 .card .card-header{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: #152036;
+    color: #E2E8F1;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-3 .card img{
+    width: 12px;
+    height: 12px;
+    margin-top: -3px;
+
+}
+
+/*----- Boton Inicio------*/
+
+.home-1 .home-1-paquetes .home-1-paquetes-3 .card .cont-boton{
+    width: 100%;
+    height: 60px;
+    background-color: #ffcd1a00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-3 .card .cont-boton .botonc{
+    width: 150px;
+    height: 40px;
+    background-color: #152036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #E2E8F1;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-3 .card .cont-boton .botonc p{
+    margin: 0;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-3 .card .cont-boton .botonc:hover{
+    background-color: #FFCD1A;
+    color: #152036;
+}
+
+.home-1 .home-1-paquetes .home-1-paquetes-3 .card .cont-boton a{
+    text-decoration: none;
+}
+
+/*----- Boton Fin------*/
+
+/*------------------------------------------------------- home 2 -------------------------------------------------*/
+
+.home-2{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/fondos/fondomkta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.home-2 .home-2-contenedor-left{
+    width: 45%;
+    height: 650px;
+    background-color: #15203634;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    backdrop-filter: blur(3px);
+}
+
+.home-2 .home-2-contenedor-left .text{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 44px;
+    color: #E2E8F1;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.179);
+}
+
+.home-2 .home-2-contenedor-left .text2{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 64px;
+    color: #FFCD1A;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.home-2 .home-2-contenedor-right{
+    width: 55%;
+    height: 650px;
+    background-color: #15203634;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    backdrop-filter: blur(3px);
+}
+
+.home-2 .home-2-contenedor-right p{
+    margin: 0;
+    color: #E2E8F1;
+    font-size: 20px;
+    text-align: justify;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.222);
+}
+
+/*------------------------------------------------------- home 5 -------------------------------------------------*/
+
+.home-5{
+    width: 100%;
+    height: 620px;
+    background-color: #E2E8F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-5 .home-5-video{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------------------------------------------- footer -------------------------------------------------*/
+
+.foter{
+    width: 100%;
+    height: 224px;
+    background-color: #2dff1a00;
+}
+
+/* ------------------------------------------------------------ Tablet------------------------------------------------------------ */
+@media screen and (max-width: 1023px){
+
+}
+
+/* ------------------------------------------------------------ Movil ------------------------------------------------------------ */
+@media screen and (max-width: 767px){
+    
+}
