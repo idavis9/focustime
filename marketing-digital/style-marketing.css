@@ -91,8 +91,8 @@
 
 .home-1 .home-1-titulo{
     width: 100%;
-    height: 120px;
-    background-color: #FFCD1A;
+    height: 90px;
+    background-color: #ffcd1a00;
     display: flex;
     align-items: end;
     justify-content: center;
@@ -107,8 +107,8 @@
 
 .home-1 .home-1-paquetes{
     width: 85%;
-    height: 630px;
-    background-color: aqua;
+    height: 660px;
+    background-color: rgba(0, 255, 255, 0);
     display: flex;
     justify-content: center;
 }
@@ -117,8 +117,8 @@
 
 .home-1 .home-1-paquetes .home-1-paquetes-1{
     width: 32%;
-    height: 630px;
-    background-color: violet;
+    height: 100%;
+    background-color: rgba(238, 130, 238, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,7 @@
 
 .home-1 .home-1-paquetes .home-1-paquetes-1 .card{
     width: 19rem;
-    height: 400px;
+    height: 550px;
     border-radius: 30px;
     text-align: center;
 }
@@ -196,8 +196,8 @@
 
 .home-1 .home-1-paquetes .home-1-paquetes-2{
     width: 32%;
-    height: 630px;
-    background-color: rgb(31, 137, 95);
+    height: 100%;
+    background-color: rgba(31, 137, 95, 0);
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -205,7 +205,7 @@
 
 .home-1 .home-1-paquetes .home-1-paquetes-2 .card{
     width: 19rem;
-    height: 400px;
+    height: 550px;
     border-radius: 30px;
     text-align: center;
 }
@@ -281,8 +281,8 @@
 
 .home-1 .home-1-paquetes .home-1-paquetes-3{
     width: 32%;
-    height: 630px;
-    background-color: rgb(52, 54, 114);
+    height: 100%;
+    background-color: rgba(52, 54, 114, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,7 +290,7 @@
 
 .home-1 .home-1-paquetes .home-1-paquetes-3 .card{
     width: 19rem;
-    height: 400px;
+    height: 550px;
     border-radius: 30px;
     text-align: center;
 }
@@ -443,11 +443,153 @@
 }
 
 /* ------------------------------------------------------------ Tablet------------------------------------------------------------ */
+
 @media screen and (max-width: 1023px){
+
+    /*------------------------------------------------------- home 1 -------------------------------------------------*/
+
+    .home-1 .home-1-paquetes{
+        width: 98%;
+    }
+
+    /*------------------------------------------------------- home 2 -------------------------------------------------*/
+
+    .home-2{
+        height: auto;
+        background-color: rgba(238, 130, 238, 0);
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-2 .home-2-contenedor-left{
+        width: 100%;
+        height: auto;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: rgba(64, 224, 208, 0);
+        backdrop-filter: none;   
+    }
+
+    .home-2 .home-2-contenedor-left .text{
+        font-size: 30px;
+        line-height: 35px;
+        color: #152036;
+    }
+
+    .home-2 .home-2-contenedor-left .text2{
+        font-size: 35px;
+        line-height: 40px;
+        text-shadow: none;
+    }
+
+    .home-2 .home-2-contenedor-right{
+        width: 100%;
+        height: auto;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        background-color: rgba(117, 224, 64, 0);
+        backdrop-filter: none;   
+    }
+    
+    .home-2 .home-2-contenedor-right p{
+        text-shadow: none;
+        color: #201F1F;    
+    }
 
 }
 
 /* ------------------------------------------------------------ Movil ------------------------------------------------------------ */
+
 @media screen and (max-width: 767px){
+
+    /*------------------------------------------------------- home 1 -------------------------------------------------*/
+
+    .home-1{
+        height: 1940px;
+        background-color: #ffcd1a00;
+    }
+
+    .home-1 .home-1-titulo{
+        height: 80px;
+        align-items: end;
+    }
+
+    .home-1 .home-1-paquetes{
+        height: 1860px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*----------------- Tarjetas -----------------------*/
+
+    .home-1 .home-1-paquetes .home-1-paquetes-1{
+        height: 620px;
+        width: 100%;
+    }
+
+    .home-1 .home-1-paquetes .home-1-paquetes-1 .card{
+        width: 85%;
+    }
+
+    .home-1 .home-1-paquetes .home-1-paquetes-2{
+        height: 620px;
+        width: 100%;
+    }
+
+    .home-1 .home-1-paquetes .home-1-paquetes-2 .card{
+        width: 85%;
+    }
+
+    .home-1 .home-1-paquetes .home-1-paquetes-3{
+        height: 620px;
+        width: 100%;
+    }
+    
+    .home-1 .home-1-paquetes .home-1-paquetes-3 .card{
+        width: 85%;
+    }
+
+    /*------------------------------------------------------- home 2 -------------------------------------------------*/
+
+    .home-2{
+        height: auto;
+    }
+
+    .home-2 .home-2-contenedor-left{
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .home-2 .home-2-contenedor-left .text{
+        font-size: 25px;
+        line-height: 30px;
+        color: #152036;
+    }
+
+    .home-2 .home-2-contenedor-left .text2{
+        font-size: 30px;
+        line-height: 35px;
+        text-shadow: none;
+    }
+
+    .home-2 .home-2-contenedor-right{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .home-2 .home-2-contenedor-right p{
+        text-shadow: none;
+        color: #201F1F;    
+    }
+
+
+
+    
+    
     
 }

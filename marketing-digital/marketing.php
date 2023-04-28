@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../header/styleh.css?v=2.9">
     <link rel="stylesheet" href="../footer/style-footer.css?v=1.0">
-    <link rel="stylesheet" href="style-marketing.css?v=1.2">
+    <link rel="stylesheet" href="style-marketing.css?v=1.5">
     <title>Document</title>
 </head>
 <body>
